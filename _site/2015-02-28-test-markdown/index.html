@@ -170,31 +170,39 @@
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
       
-        
-        
-        
+      
+      
+      
 
-        <div id="header-gh-btns">
-          
-            
-              
-                  <iframe src="https://ghbtns.com/github-btn.html?user=daattali&repo=beautiful-jekyll&type=star&count=true" frameborder="0" scrolling="0" width="120px" height="20px"></iframe>
-                
-            
-              
-                  <iframe src="https://ghbtns.com/github-btn.html?user=daattali&repo=beautiful-jekyll&type=fork&count=true" frameborder="0" scrolling="0" width="120px" height="20px"></iframe>
-                
-            
-              
-                  <iframe src="https://ghbtns.com/github-btn.html?user=daattali&type=follow&count=true" frameborder="0" scrolling="0" width="220px" height="20px"></iframe>
-              
-            
-          
-        </div>
+      <div id="header-gh-btns">
+        
+        
+        
+        <iframe src="https://ghbtns.com/github-btn.html?user=daattali&repo=beautiful-jekyll&type=star&count=true" frameborder="0" scrolling="0" width="120px" height="20px"></iframe>
+        
+        
+        
+        <iframe src="https://ghbtns.com/github-btn.html?user=daattali&repo=beautiful-jekyll&type=fork&count=true" frameborder="0" scrolling="0" width="120px" height="20px"></iframe>
+        
+        
+        
+        <iframe src="https://ghbtns.com/github-btn.html?user=daattali&type=follow&count=true" frameborder="0" scrolling="0" width="220px" height="20px"></iframe>
+        
+        
+        
+      </div>
       
 
       <article role="main" class="blog-post">
-        <p>Test $\alpha$ $\beta$</p>
+        <h2 id="test-latex">Test Latex</h2>
+
+<p>Test $ \alpha $ $\beta$</p>
+
+<p>$ test $</p>
+
+<script type="math/tex; mode=display">\frac{a}{b}</script>
+
+<script type="math/tex; mode=display">2 + x^2 = 11</script>
 
 <p>You can write regular <a href="http://markdowntutorial.com/">markdown</a> here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to <a href="http://markdowntutorial.com/">take 5 minutes to learn how to write in markdown</a> - it’ll teach you how to transform regular text into bold/italics/headings/tables/etc.</p>
 
@@ -286,21 +294,48 @@ foo(3)
 
 <p class="box-error"><strong>Error:</strong> This is an error box.</p>
 
+        
+        <script type="text/x-mathjax-config">
+          MathJax.Hub.Config({
+            tex2jax: {
+              inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+              processEscapes: true
+            }
+          });
+        </script>
+        <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        </script>
+        <!-- <script>
+          MathJax = {
+            tex: {
+              inlineMath: [['$', '$'], ['\\(', '\\)']],
+              displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            }
+          };
+        </script>
+        <script type="text/javascript" id="MathJax-script" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        </script> -->
+        <!-- <script type="text/javascript" id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+        </script> -->
+        <!-- <script type="text/javascript" id="MathJax-script" async src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML'>
+        </script> -->
+        
       </article>
 
       
-        <div class="blog-tags">
-          Tags:
-          
-          
-            <a href="/tags#test">test</a>
-          
-          
-        </div>
+      <div class="blog-tags">
+        Tags:
+        
+        
+        <a href="/tags#test">test</a>
+        
+        
+      </div>
       
 
       
-        <!-- Check if any share-links are active -->
+      <!-- Check if any share-links are active -->
 
 
 
@@ -336,12 +371,16 @@ foo(3)
 
       <ul class="pager blog-pager">
         
+        <li class="previous">
+          <a href="/2015-02-28-test-markdown/" data-toggle="tooltip" data-placement="top" title="Test Markdown">&larr; Previous Post</a>
+        </li>
+        
         
       </ul>
 
       
-        <div class="disqus-comments">
-          <div class="comments">
+      <div class="disqus-comments">
+        <div class="comments">
     <div id="disqus_thread"></div>
     <script type="text/javascript">
         var disqus_shortname = 'https-lewallen-github-io';
@@ -356,15 +395,15 @@ foo(3)
     </script>
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
-        </div>
-          
-        <div class="staticman-comments">
-          
+      </div>
+      
+      <div class="staticman-comments">
+        
 
-        </div>
-        <div class="justcomments-comments">
-          
-        </div>
+      </div>
+      <div class="justcomments-comments">
+        
+      </div>
       
     </div>
   </div>

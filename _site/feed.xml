@@ -10,7 +10,18 @@
         <title>Test markdown</title>
         <description>
           Each post also has a subtitle - 
-          Test $\alpha$ $\beta$ You can write regular markdown here and Jekyll will automatically convert it to a nice webpage. I strongly encourage you to take 5 minutes to learn how to write in markdown - it’ll teach you how to transform regular text into bold/italics/headings/tables/etc. Here is some bold text...
+          Test Latex Test $ \alpha $ $\beta$ $ test $ You can write regular markdown here and Jekyll will automatically convert it to a nice webpage. I strongly encourage you to take 5 minutes to learn how to write in markdown - it’ll teach you how to transform regular text...
+        </description>
+        <pubDate>Sat, 28 Feb 2015 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/2015-02-28-test-markdown/</link>
+        <guid isPermaLink="true">http://localhost:4000/2015-02-28-test-markdown/</guid>
+      </item>
+    
+      <item>
+        <title>Test Markdown</title>
+        <description>
+          
+          Test markdown Test $\alpha$ $\beta$ \( 2 + 4 \) $$2 + x^2 = 11$$ You can write regular markdown here and Jekyll will automatically convert it to a nice webpage. I strongly encourage you to take 5 minutes to learn how to write in markdown - it&amp;apos;ll teach you...
         </description>
         <pubDate>Sat, 28 Feb 2015 00:00:00 -0800</pubDate>
         <link>http://localhost:4000/2015-02-28-test-markdown/</link>
