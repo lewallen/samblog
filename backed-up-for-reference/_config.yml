@@ -1,7 +1,7 @@
 # --- General options --- #
 
 # Site settings
-title: Sam Lewallen's blog
+title: Sam Lewallen
 email: slewallen@fas.harvard.edu
 url: https://lewallen.github.io/
 description: Research webpage of Sam Lewallen
@@ -22,8 +22,11 @@ meta_author:
 
 # List of links in the navigation bar
 navbar-links:
-  Blog: "/blog"
   Home: "https://lewallen.github.io"
+  Resources:
+    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
+    - Learn markdown: "http://www.markdowntutorial.com/"
+  Author's home: "http://deanattali.com"
 
 # pagination for blog (relative to post location)
 paginate_path: "/blog/page:num/"
@@ -61,7 +64,7 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Sam Lewallen
+  name: Some Person
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
@@ -69,8 +72,10 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   rss: true
-  email: "sam.lewallen@gmail.com"
-  github: lewallen
+  email: "someone@example.com"
+  facebook: deanattali
+  github: daattali
+  twitter: daattali
 #  reddit: yourname
 #  linkedin: daattali
 #  xing: yourname
@@ -88,11 +93,11 @@ social-network-links:
 share-links-active:
   twitter: true
   facebook: true
-  linkedin: false
+  linkedin: true
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "Blog"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 

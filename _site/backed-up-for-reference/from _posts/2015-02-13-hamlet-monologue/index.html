@@ -6,13 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
 
-  <title>Blog</title>
+  <title>To be</title>
 
-  <meta name="author" content="Some Person" />
+  <meta name="author" content="Sam Lewallen" />
 
   
+  <meta name="description" content="... or not to be?">
+  
 
-  <link rel="alternate" type="application/rss+xml" title="Sam Lewallen - Research webpage of Sam Lewallen" href="http://localhost:4000/feed.xml" />
+  <link rel="alternate" type="application/rss+xml" title="Sam Lewallen's blog - Research webpage of Sam Lewallen" href="http://localhost:4000/feed.xml" />
 
   
 
@@ -58,19 +60,19 @@
   
 
   
-  <meta property="og:title" content="Blog" />
+  <meta property="og:title" content="To be" />
   
 
    
-  <meta property="og:description" content="{% for post in paginator.posts %} {{ post.title }} {% if post.subtitle %} {{ post.subtitle }} {% endif %} Posted on {{ post.date | date: site.date_format }} {% if post.image %} {% endif %} {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }} {% assign excerpt_word_count = post.excerpt |...">
+  <meta property="og:description" content="... or not to be?">
   
 
 
   <meta property="og:type" content="website" />
 
   
-  <meta property="og:url" content="http://localhost:4000/blog/page2/" />
-  <link rel="canonical" href="http://localhost:4000/blog/page2/" />
+  <meta property="og:url" content="http://localhost:4000/backed-up-for-reference/from%20_posts/2015-02-13-hamlet-monologue/" />
+  <link rel="canonical" href="http://localhost:4000/backed-up-for-reference/from%20_posts/2015-02-13-hamlet-monologue/" />
   
 
   
@@ -84,11 +86,11 @@
   <meta name="twitter:creator" content="@" />
 
   
-  <meta name="twitter:title" content="Blog" />
+  <meta name="twitter:title" content="To be" />
   
 
   
-  <meta name="twitter:description" content="{% for post in paginator.posts %} {{ post.title }} {% if post.subtitle %} {{ post.subtitle }} {% endif %} Posted on {{ post.date | date: site.date_format }} {% if post.image %} {% endif %} {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }} {% assign excerpt_word_count = post.excerpt |...">
+  <meta name="twitter:description" content="... or not to be?">
   
 
   
@@ -115,20 +117,12 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-      </button><a class="navbar-brand" href="http://localhost:4000/">Sam Lewallen</a></div>
+      </button><a class="navbar-brand" href="http://localhost:4000/">Sam Lewallen's blog</a></div>
 
     <div class="collapse navbar-collapse" id="main-navbar">
       <ul class="nav navbar-nav navbar-right">
-          <li><a href="/blog/">Blog</a></li>
-          <li class="navlinks-container">
-            <a class="navlinks-parent" href="javascript:void(0)">Resources</a>
-            <div class="navlinks-children">
-              <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
-              <a href="http://www.markdowntutorial.com/">Learn markdown</a>
-            </div>
-          </li>
-        
-          <li><a href="http://deanattali.com">Author's home</a></li></ul>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="https://lewallen.github.io">Home</a></li></ul>
     </div>
 
 	
@@ -149,10 +143,16 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <div class="page-heading">
-          <h1>Blog</h1>
+        <div class="post-heading">
+          <h1>To be</h1>
+		  
+		    
+			<h2 class="post-subheading">... or not to be?</h2>
+			
 		  
 		  
+		  
+		  <span class="post-meta">Posted on </span>
 		  
         </div>
       </div>
@@ -165,82 +165,74 @@
 
 
 
-<div class="container" role="main">
+<div class="container">
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-      <div class="posts-list">
-  
-  <article class="post-preview">
-    <a href="/2015-01-15-pirates/">
-	  <h2 class="post-title">Pirates arrrr</h2>
 
-	  
-    </a>
-
-    <p class="post-meta">
-      Posted on January 15, 2015
-    </p>
-
-    <div class="post-entry-container">
       
-      <div class="post-entry">
-        Piracy is typically an act of robbery or criminal violence at sea. The term can include acts committed on land, in the air, or in other major bodies of water or on a shore. It does not normally include crimes committed against persons traveling on the same vessel as the...
-        
-        
-          <a href="/2015-01-15-pirates/" class="post-read-more">[Read&nbsp;More]</a>
-        
-      </div>
-    </div>
 
-    
+      <article role="main" class="blog-post">
+        <p>To be, or not to be–that is the question:
+Whether ‘tis nobler in the mind to suffer
+The slings and arrows of outrageous fortune
+Or to take arms against a sea of troubles
+And by opposing end them. To die, to sleep–
+No more–and by a sleep to say we end
+The heartache, and the thousand natural shocks
+That flesh is heir to. ‘Tis a consummation
+Devoutly to be wished. To die, to sleep–
+To sleep–perchance to dream: ay, there’s the rub,
+For in that sleep of death what dreams may come
+When we have shuffled off this mortal coil,
+Must give us pause. There’s the respect
+That makes calamity of so long life.
+For who would bear the whips and scorns of time,
+Th’ oppressor’s wrong, the proud man’s contumely
+The pangs of despised love, the law’s delay,
+The insolence of office, and the spurns
+That patient merit of th’ unworthy takes,
+When he himself might his quietus make
+With a bare bodkin? Who would fardels bear,
+To grunt and sweat under a weary life,
+But that the dread of something after death,
+The undiscovered country, from whose bourn
+No traveller returns, puzzles the will,
+And makes us rather bear those ills we have
+Than fly to others that we know not of?
+Thus conscience does make cowards of us all,
+And thus the native hue of resolution
+Is sicklied o’er with the pale cast of thought,
+And enterprise of great pitch and moment
+With this regard their currents turn awry
+And lose the name of action. – Soft you now,
+The fair Ophelia! – Nymph, in thy orisons
+Be all my sins remembered.</p>
 
-   </article>
-  
-  <article class="post-preview">
-    <a href="/2015-01-04-first-post/">
-	  <h2 class="post-title">First post!</h2>
+      </article>
 
-	  
-    </a>
-
-    <p class="post-meta">
-      Posted on January 4, 2015
-    </p>
-
-    <div class="post-entry-container">
       
-      <div class="post-image">
-        <a href="/2015-01-04-first-post/">
-          <img src="/img/hello_world.jpeg">
-        </a>
-      </div>
+        <div class="blog-tags">
+          Tags:
+          
+          
+            <a href="/tags#books">books</a>
+          
+            <a href="/tags#shakespeare">shakespeare</a>
+          
+            <a href="/tags#test">test</a>
+          
+          
+        </div>
       
-      <div class="post-entry">
-        This is my first post, how exciting!
 
+      
+
+      <ul class="pager blog-pager">
         
         
-      </div>
-    </div>
+      </ul>
 
-    
-
-   </article>
-  
-</div>
-
-
-<ul class="pager main-pager">
-  
-  <li class="previous">
-    <a href="/blog/">&larr; Newer Posts</a>
-  </li>
-  
-  
-</ul>
-
-
-	    
+      
     </div>
   </div>
 </div>
@@ -256,39 +248,27 @@
                 </span>
                 <span class="sr-only">RSS</span>
               </a>
-            </li><li><a href="mailto:someone@example.com" title="Email me"><span class="fa-stack fa-lg" aria-hidden="true">
+            </li><li><a href="mailto:sam.lewallen@gmail.com" title="Email me"><span class="fa-stack fa-lg" aria-hidden="true">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
                 </span>
                 <span class="sr-only">Email me</span>
               </a>
-            </li><li><a href="https://www.facebook.com/deanattali" title="Facebook"><span class="fa-stack fa-lg" aria-hidden="true">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                </span>
-                <span class="sr-only">Facebook</span>
-              </a>
-            </li><li><a href="https://github.com/daattali" title="GitHub"><span class="fa-stack fa-lg" aria-hidden="true">
+            </li><li><a href="https://github.com/lewallen" title="GitHub"><span class="fa-stack fa-lg" aria-hidden="true">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-github fa-stack-1x fa-inverse"></i>
                 </span>
                 <span class="sr-only">GitHub</span>
               </a>
-            </li><li><a href="https://twitter.com/daattali" title="Twitter"><span class="fa-stack fa-lg" aria-hidden="true">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                </span>
-                <span class="sr-only">Twitter</span>
-              </a>
             </li></ul>
       <p class="copyright text-muted">
-      Some Person
+      Sam Lewallen
       &nbsp;&bull;&nbsp;
       2020
 
       
       &nbsp;&bull;&nbsp;
-      <a href="http://localhost:4000/">MyWebsite.com</a>
+      <a href="http://localhost:4000/">Blog</a>
       
 
       
