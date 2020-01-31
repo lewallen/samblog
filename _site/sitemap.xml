@@ -5,10 +5,6 @@
 <lastmod>2015-02-28T00:00:00-08:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/2015-02-28-test-markdown/</loc>
-<lastmod>2015-02-28T00:00:00-08:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/backed-up-for-reference/from%20_posts/2015-01-04-first-post/</loc>
 </url>
 <url>
@@ -27,6 +23,9 @@
 <loc>http://localhost:4000/backed-up-for-reference/from%20_posts/2015-02-26-flake-it-till-you-make-it/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/pre-posts/all-info/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/blog/</loc>
 </url>
 <url>
@@ -34,5 +33,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/tags/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/backed-up-for-reference/from%20_posts/2015-02-28-test-markdown.html</loc>
+<lastmod>2020-01-30T11:06:07-08:00</lastmod>
 </url>
 </urlset>
