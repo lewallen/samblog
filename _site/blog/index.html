@@ -2,105 +2,107 @@
 <html lang="en">
   <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 -->
   <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
 
-  <title>samblog</title>
-
-  <meta name="author" content="Sam Lewallen" />
-
-  
-
-  <link rel="alternate" type="application/rss+xml" title="Sam Lewallen - blog" href="http://localhost:4000/feed.xml" />
+	<title>
+		samblog
+		
+	</title>
 
   
+		<meta name="author" content="{"name"=>"Sam Lewallen"}">
+	
 
-  
+	
 
-  
+	<link rel="alternate" type="application/rss+xml" title="Sam Lewallen - blog" href="http://localhost:4000/feed.xml"/>
+
+	
+
+	
+
+	
 
 
-  
-    
-      
+	
+		
+			
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" />
 
 
-    
-  
+		
+	
 
-  
-    
-      <link rel="stylesheet" href="/css/bootstrap.min.css" />
-    
-      <link rel="stylesheet" href="/css/bootstrap-social.css" />
-    
-      <link rel="stylesheet" href="/css/main.css" />
-    
-  
+	
+		
+			<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+		
+			<link rel="stylesheet" href="/css/bootstrap-social.css"/>
+		
+			<link rel="stylesheet" href="/css/main.css"/>
+		
+	
 
-  
-    
-      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
-    
-      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
-    
-  
+	
+		
+			<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic"/>
+		
+			<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"/>
+		
+	
 
-  
+	
 
-  
+	
 
-  
+	
 
-    <!-- Facebook OpenGraph tags -->
-  
+	<!-- Facebook OpenGraph tags -->
+	
 
-  
-  <meta property="og:title" content="samblog" />
-  
+	
+		<meta property="og:title" content="samblog"/>
+	
 
-   
-  <meta property="og:description" content="{% for post in paginator.posts %} {{ post.title }} {% if post.subtitle %} {{ post.subtitle }} {% endif %} Posted on {{ post.date | date: site.date_format }} {% if post.image %} {% endif %} {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }} {% assign excerpt_word_count = post.excerpt |...">
-  
+	
+		<meta property="og:description" content="{% for post in paginator.posts %} {{ post.title }} {% if post.subtitle %} {{ post.subtitle }} {% endif %} Posted on {{ post.date | date: site.date_format }} {% if post.image %} {% endif %} {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }} {% assign excerpt_word_count = post.excerpt |...">
+	
 
+	<meta property="og:type" content="website"/>
 
-  <meta property="og:type" content="website" />
+	
+		<meta property="og:url" content="http://localhost:4000/blog/"/>
+		<link rel="canonical" href="http://localhost:4000/blog/"/>
+	
 
-  
-  <meta property="og:url" content="http://localhost:4000/blog/" />
-  <link rel="canonical" href="http://localhost:4000/blog/" />
-  
+	
+		<meta property="og:image" content="http://localhost:4000/img/avatar-icon.png"/>
+	
 
-  
-  <meta property="og:image" content="http://localhost:4000/img/avatar-icon.png" />
-  
+	<!-- Twitter summary cards -->
+	<meta name="twitter:card" content="summary"/>
+	<meta name="twitter:site" content="@"/>
+	<meta name="twitter:creator" content="@"/>
 
+	
+		<meta name="twitter:title" content="samblog"/>
+	
 
-  <!-- Twitter summary cards -->
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@" />
-  <meta name="twitter:creator" content="@" />
+	
+		<meta name="twitter:description" content="{% for post in paginator.posts %} {{ post.title }} {% if post.subtitle %} {{ post.subtitle }} {% endif %} Posted on {{ post.date | date: site.date_format }} {% if post.image %} {% endif %} {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }} {% assign excerpt_word_count = post.excerpt |...">
+	
 
-  
-  <meta name="twitter:title" content="samblog" />
-  
+	
+		<meta name="twitter:image" content="http://localhost:4000/img/avatar-icon.png"/>
+	
 
-  
-  <meta name="twitter:description" content="{% for post in paginator.posts %} {{ post.title }} {% if post.subtitle %} {{ post.subtitle }} {% endif %} Posted on {{ post.date | date: site.date_format }} {% if post.image %} {% endif %} {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }} {% assign excerpt_word_count = post.excerpt |...">
-  
+	
 
-  
-  <meta name="twitter:image" content="http://localhost:4000/img/avatar-icon.png" />
-  
-
-  
-
-  
+	
 
 </head>
-
 
   <body>
 
