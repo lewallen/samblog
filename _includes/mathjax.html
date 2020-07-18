@@ -12,9 +12,16 @@
 				],
 				processEscapes: true
 			},
-			TeX: {
-				Macros: {
-					RR: '{\\bf R}'          
+			tex: {
+				packages: {
+					'[+]': ['tagFormat'],
+					'[+]': ['amsFonts']
+				},
+				macros: {
+					RR: '{\\bf R}',
+					R: "{\\mathbb R}",
+					C: "{\\mathbb C}",
+					p: "{\\mathcal P}" // P-rond
 				}
 			}
 		});
