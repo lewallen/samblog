@@ -173,7 +173,32 @@
       
 
       <article role="main" class="blog-post">
-        <h2 id="test-latex">Test Latex</h2>
+        <p>#
+test 2
+$\RR$</p>
+
+<p>$\RR$</p>
+
+<h1 id="want-to-quickly-respond-to-wills-comment-on-priors">Want to quickly respond to Will’s comment on priors</h1>
+
+<p>Our basic Bayesian context. Have an “observation space” $X$, and a space of “models” $Y$ (called the latent space in latent variable models).</p>
+
+<p>Typically a “model” is an element of $\p(X)$, the space of probability distributions on $X$ (with what structure?). Typically the model is specified by a point $m \in \R^d$ for some $d$, the parameter space, by implicitly or explicitly defining a map $f: \R^d \to \p(X)$; $f(m)$ is the model determined by $m$.</p>
+
+<p>For a moment, let’s take our model space to be $\p(X)$ itself (a different generalization would be to think about $f: Y \to \p(X)$ for more general $Y$’s).</p>
+
+<p>So recall we have $X$ and $Y = \p(X)$. A prior is a distribution on $Y$, i.e. an element $\mu \in \p(Y) = \p(\p(X))$.</p>
+
+<blockquote>
+  <p><strong>Comment</strong>: this infinite regress of prior stuff feels a bit like infinite loop spaces; is there an actual relationship?
+<strong>Related</strong>: Express spaces as function spaces wrt other spaces, to enable canonical/standard operations, etc</p>
+</blockquote>
+
+<p>A compact Lie group $G$ has a Haar measure,</p>
+
+<h1 id="maneesh-stuff-meaning-among-other-things-how-to-formalize-the-idea-that-the-ddc-is-abstract-in-an-important-sense">“Maneesh stuff” meaning, among other things, how to formalize the idea that the DDC is “abstract” in an important sense</h1>
+
+<h2 id="test-latex">Test Latex</h2>
 
 <p>Test $ \alpha $ $\beta$</p>
 
@@ -288,8 +313,14 @@ foo(3)
 				processEscapes: true
 			},
 			TeX: {
+				TagSide: "left",
+        Extensions: ["AMSmath.js"],
 				Macros: {
-					RR: '{\\bf R}'          
+					RR: '{\\bf R}',
+          R: '{\\mathbb R}',
+          C: '{\\mathbb R}',
+          p: '{\\mathcal P}',
+					bold: ['{\\bf #1}', 1]
 				}
 			}
 		});

@@ -10,7 +10,7 @@
         <title>Test markdown</title>
         <description>
           Each post also has a subtitle - 
-          Test Latex Test $ \alpha $ $\beta$ $ test $ You can write regular markdown here and Jekyll will automatically convert it to a nice webpage. I strongly encourage you to take 5 minutes to learn how to write in markdown - it’ll teach you how to transform regular text...
+          # test 2 $\RR$ $\RR$ Want to quickly respond to Will’s comment on priors Our basic Bayesian context. Have an “observation space” $X$, and a space of “models” $Y$ (called the latent space in latent variable models). Typically a “model” is an element of $\p(X)$, the space of probability distributions...
         </description>
         <pubDate>Sat, 28 Feb 2015 00:00:00 -0800</pubDate>
         <link>http://localhost:4000/2015-02-28-test-markdown/</link>

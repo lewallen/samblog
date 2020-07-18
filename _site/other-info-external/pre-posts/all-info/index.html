@@ -194,8 +194,14 @@
 				processEscapes: true
 			},
 			TeX: {
+				TagSide: "left",
+        Extensions: ["AMSmath.js"],
 				Macros: {
-					RR: '{\\bf R}'          
+					RR: '{\\bf R}',
+          R: '{\\mathbb R}',
+          C: '{\\mathbb R}',
+          p: '{\\mathcal P}',
+					bold: ['{\\bf #1}', 1]
 				}
 			}
 		});

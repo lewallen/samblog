@@ -12,16 +12,15 @@
 				],
 				processEscapes: true
 			},
-			tex: {
-				packages: {
-					'[+]': ['tagFormat'],
-					'[+]': ['amsFonts']
-				},
-				macros: {
+			TeX: {
+				TagSide: "left",
+        Extensions: ["AMSmath.js"],
+				Macros: {
 					RR: '{\\bf R}',
-					R: "{\\mathbb R}",
-					C: "{\\mathbb C}",
-					p: "{\\mathcal P}" // P-rond
+          R: '{\\mathbb R}',
+          C: '{\\mathbb R}',
+          p: '{\\mathcal P}',
+					bold: ['{\\bf #1}', 1]
 				}
 			}
 		});
