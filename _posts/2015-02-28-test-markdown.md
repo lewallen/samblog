@@ -7,12 +7,6 @@ subtitle: Each post also has a subtitle
 tags: [test]
 ---
 
-#
-test 2
-$\RR$
-
-$\RR$
-
 # Want to quickly respond to Will's comment on priors
 
 Our basic Bayesian context. Have an "observation space" $X$, and a space of "models" $Y$ (called the latent space in latent variable models).
